@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Personal Wiki on meru wiki</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in My Personal Wiki on meru wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Girlfriend</title>
-      <link>http://localhost:1313/posts/anushka/</link>
+      <link>//localhost:1313/posts/anushka/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/anushka/</guid>
+      <guid>//localhost:1313/posts/anushka/</guid>
       <description>&lt;p&gt;Anushka Poddar is my current girlfriend who(m?) I love.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hiremagalur</title>
-      <link>http://localhost:1313/posts/hiremagalur/</link>
+      <link>//localhost:1313/posts/hiremagalur/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hiremagalur/</guid>
+      <guid>//localhost:1313/posts/hiremagalur/</guid>
       <description>&lt;p&gt;Does this even work? I&amp;rsquo;m not convinced that writing in these notes actually makes sense for people to construct their personal wiki with.&lt;/p&gt;&#xA;&lt;p&gt;To understand the name Hiremagalur: (hire) comes from &amp;ldquo;Hiriya&amp;rdquo; or big. (magal) or daughter. (ur) comes from ooru or town. (hiremagalur) or town [of the] eldest daughter&lt;/p&gt;</description>
     </item>
   </channel>

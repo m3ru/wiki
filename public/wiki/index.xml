@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Personal Wiki on meru wiki</title>
-    <link>http://localhost:1313/wiki/</link>
+    <link>//localhost:1313/wiki/</link>
     <description>Recent content in My Personal Wiki on meru wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hiremagalur</title>
-      <link>http://localhost:1313/wiki/hiremagalur/</link>
+      <link>//localhost:1313/wiki/hiremagalur/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki/hiremagalur/</guid>
+      <guid>//localhost:1313/wiki/hiremagalur/</guid>
       <description>&lt;p&gt;Does this even work? I&amp;rsquo;m not convinced that writing in these notes actually makes sense for people to construct their personal wiki with.&lt;/p&gt;&#xA;&lt;p&gt;To understand the name Hiremagalur: (hire) comes from &amp;ldquo;Hiriya&amp;rdquo; or big. (magal) or daughter. (ur) comes from ooru or town. (hiremagalur) or town [of the] eldest daughter&lt;/p&gt;</description>
     </item>
     <item>
       <title>Meru_Gopalan_Wiki</title>
-      <link>http://localhost:1313/wiki/wiki/</link>
+      <link>//localhost:1313/wiki/wiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki/wiki/</guid>
+      <guid>//localhost:1313/wiki/wiki/</guid>
       <description>&lt;h2 id=&#34;my-personal-wiki&#34;&gt;My Personal Wiki&lt;/h2&gt;&#xA;&lt;p&gt;This is the index of my personal wiki.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hiremagalur&#34;&gt;Hiremagalur&lt;/h2&gt;&#xA;&lt;p&gt;:EXPORT_FILE_NAME: hiremagalur&#xA;:ID:      $(uuidgen)&lt;/p&gt;&#xA;&lt;p&gt;Does this even work? I&amp;rsquo;m not convinced that writing in these notes actually makes sense for people to construct their personal wiki with.&#xA;To understand the name Hiremagalur: (hire) comes from &amp;ldquo;Hiriya&amp;rdquo; or big. (magal) or daughter. (ur) comes from ooru or town. (hiremagalur) or town [of the] eldest daughter&lt;/p&gt;</description>
     </item>
   </channel>
