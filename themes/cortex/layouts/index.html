@@ -1,0 +1,33 @@
+{{define "main"}}
+<div class="page" data-level="1">
+    <div class="content">
+        <div id="metainfo">
+            {{$wordcount := 0}}
+            {{$pages := .Site.Pages}}
+            {{range $pages}}
+            {{$wordcount = add .WordCount $wordcount}}
+            {{end}}
+
+            <p>There are {{ len (where .Site.Pages "Section" "posts") }} notes with {{$wordcount}} words.</p>
+            <p>Last generated {{ now.Format "Jan 2, 2006 at 3:04pm (MST)" }}.</p>
+        </div>
+
+        <div id="rootinfo">
+            {{with .Site.GetPage "posts/root.md"}}{{.Content}}{{end}}
+        </div>
+
+        <div>
+            <h4>All Notes</h4>
+            <div>
+                <ul>
+                    {{ range (where .Site.Pages "Section" "posts") }}
+                        {{ if and (gt (len .Title) 0) (ne .Title "Posts") }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}

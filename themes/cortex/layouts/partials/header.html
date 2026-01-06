@@ -1,0 +1,10 @@
+<header>
+    <a href="/" id="logo">
+        <img src="{{ "svg/icon.svg" | relURL }}" alt="icon" id="raccoon" />
+
+    </a>
+    <h3 class="site-title">{{.Site.Title}}</h3>
+    <div id="search">
+        {{ partial "search" . }}
+    </div>
+</header>

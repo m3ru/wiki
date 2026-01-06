@@ -1,0 +1,18 @@
+<title>{{ .Title }}</title>
+
+<!-- META TAGS -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+{{ $main := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $main.Permalink }}"/>
+
+{{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
+{{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $searchJS.RelPermalink }}" integrity="{{ $searchJS.Data.Integrity }}"></script>
+
+<link rel="stylesheet" href="{{ "katex/katex.min.css" | relURL }}" />
+<script defer src="{{ "katex/katex.min.js" | relURL }}"></script>
+<script defer src="{{ "katex/auto-render.min.js" | relURL }}" onload="renderMathInElement(document.body);"></script>
