@@ -438,25 +438,25 @@ dt + dt + dd {
 }
 
 
-/* Light Theme: default variables */
+/* Dark Theme: default variables */
 :root {
-    --background-color: #fafafc;
-    --text-color: #000;
-    --header-bg-color: #fff;
-    --header-border-color: #ccc;
-    --link-color: rgba(10, 132, 255, 1);
-    --active-link-bg-color: rgba(10, 132, 255, 0.15);
+    --background-color: #333;
+    --text-color: #fff;
+    --header-bg-color: #444;
+    --header-border-color: #555;
+    --link-color: #a8d0e6;
+    --active-link-bg-color: rgba(10, 132, 255, 0.2);
 }
 
-/* Dark Theme: overridden variables */
-@media (prefers-color-scheme: dark) {
+/* Light Theme: overridden variables */
+@media (prefers-color-scheme: light) {
     :root {
-        --background-color: #333;
-        --text-color: #fff;
-        --header-bg-color: #444;
-        --header-border-color: #555;
-        --link-color: #a8d0e6;
-        --active-link-bg-color: rgba(10, 132, 255, 0.2);
+        --background-color: #fafafc;
+        --text-color: #000;
+        --header-bg-color: #fff;
+        --header-border-color: #ccc;
+        --link-color: rgba(10, 132, 255, 1);
+        --active-link-bg-color: rgba(10, 132, 255, 0.15);
     }
 }
 
