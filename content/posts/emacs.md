@@ -14,3 +14,5 @@ Helpful emacs commands:
 -   Toggle terminal (vterm): C-\`
 -   Start LSP: M-x eglot
 -   Package install: M-x p-ins
+-   (ace window) toggle between buffers: C-x o
+-   Make virtual buffer (to change): C-x 3
