@@ -11,3 +11,6 @@ Helpful emacs commands:
 -   Build (lisp): C-x C-e
 -   Export Wiki: C-c C-e H A
 -   Deploy Wiki: C-c n d
+-   Toggle terminal (vterm): C-\`
+-   Start LSP: M-x eglot
+-   Package install: M-x p-ins
