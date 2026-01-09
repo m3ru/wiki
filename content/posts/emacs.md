@@ -16,3 +16,9 @@ Helpful emacs commands:
 -   Package install: M-x p-ins
 -   (ace window) toggle between buffers: C-x o
 -   Make virtual buffer (to change): C-x 3
+
+Config setup:
+
+-   ~/sync/dotfiles/.emacs.d/init.el copy into home directory
+-   Ensure that org-roam/ and wiki/ are in ~/sync/
+-   GG EZ
