@@ -16,6 +16,7 @@ Helpful emacs commands:
 -   Package install: M-x p-ins
 -   (ace window) toggle between buffers: C-x o
 -   Make virtual buffer (to change): C-x 3
+-   Fuzzy find for files in a project: C-s (calls project-find-file)
 
 Config setup:
 
