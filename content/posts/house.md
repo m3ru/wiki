@@ -1,6 +1,5 @@
 +++
 title = "House"
-author = ["Meru Gopalan"]
 draft = false
 +++
 
