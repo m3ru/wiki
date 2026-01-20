@@ -1,5 +1,6 @@
 +++
 title = "Emacs"
+author = ["Meru Gopalan"]
 draft = false
 +++
 

@@ -1,5 +1,6 @@
 +++
 title = "Computer"
+author = ["Meru Gopalan"]
 draft = false
 +++
 

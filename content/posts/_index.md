@@ -1,5 +1,6 @@
 +++
 title = "My Personal Wiki"
+author = ["Meru Gopalan"]
 draft = false
 +++
 
